@@ -1,0 +1,29 @@
+# file: config.py
+
+CAMERA_INDEX = 0
+
+# Colors in BGR format
+RED = (0, 0, 255)
+BLUE = (255, 0, 0)
+GREEN = (0, 255, 0)
+YELLOW = (0, 255, 255)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+CYAN = (255, 255, 0)
+MAGENTA = (255, 0, 255)
+GRAY = (40, 40, 40)
+
+# Default hand colors
+DEFAULT_LEFT_HAND_COLOR = RED
+DEFAULT_RIGHT_HAND_COLOR = BLUE
+
+BRUSH_THICKNESS = 7
+ERASER_THICKNESS = 35
+
+WINDOW_NAME = "Air Drawing - Two Hands"
+
+SAVE_PATH = "output/drawing.png"
+
+MAX_HANDS = 2
+DETECTION_CONFIDENCE = 0.7
+TRACKING_CONFIDENCE = 0.7
