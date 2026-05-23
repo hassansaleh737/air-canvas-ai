@@ -58,6 +58,13 @@ The project tracks both hands through the webcam and allows users to draw in the
 | Index + middle fingers | Move without drawing |
 | Fingers down | Stop drawing / commit shape |
 
+
+##Install dependencies
+pip install -r requirements.txt
+
+##Run the Project
+python main.py
+
 ## Project Structure
 
 ```text
@@ -72,3 +79,5 @@ air_drawing_project/
 ├── .gitignore
 │
 └── output/
+
+
