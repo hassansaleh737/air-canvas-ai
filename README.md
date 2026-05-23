@@ -59,10 +59,10 @@ The project tracks both hands through the webcam and allows users to draw in the
 | Fingers down | Stop drawing / commit shape |
 
 
-##Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-##Run the Project
+## Run the Project
 python main.py
 
 ## Project Structure
